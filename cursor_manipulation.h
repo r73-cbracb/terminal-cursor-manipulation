@@ -5,10 +5,6 @@
 #ifndef _CURSOR_MANIPULATION_H
 #define _CURSOR_MANIPULATION_H
 
-#ifdef _NORMAL_INCLUDES
-#include <iostream>
-#endif// _NORMAL_INCLUDES
-
 // For Implentation of "getch()" function in linux
 // this automatically defines _GETCH_FUNCTION, so you don't need to redefine it
 #ifdef _GETCH_FUNCTION_INCLUDES
